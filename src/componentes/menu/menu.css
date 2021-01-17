@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.menu nav{
+  top:0;
+  position:fixed;
+  width:20px;
+  height: 10px;
+   z-index:9999;
+}
+
+
+
+nav a{
+font-family: 'Orbitron', sans-serif;
+padding:5px;
+text-align: left;
+text-decoration:none;
+ background: -webkit-gradient(linear, left top, right bottom, from(rgb(128, 125, 125)), to(rgb(248, 247, 248))) fixed;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+

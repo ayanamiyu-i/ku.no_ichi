@@ -1,0 +1,10 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body{
+
+  background: -webkit-gradient(linear, left top, right bottom, from(rgb(3, 3, 3)), to(rgb(113, 8, 211))) fixed;
+
+}

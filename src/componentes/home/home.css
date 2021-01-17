@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+
+header h1{
+font-family: 'Orbitron', sans-serif;
+font-size: 80px;
+position:auto;
+background-image: url('https://media3.giphy.com/media/l2JIgQqDeGQULFhJK/source.gif');
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.imagem1{
+width:220px;
+height: 220px;
+position: static;
+float:left;
+border-radius:10px;
+}
+
+.imagem2{
+  width:220px;
+height: 220px;
+position: static;;
+float:right;
+border-radius:10px;
+}
+
+h2{
+  font-family: 'Space Mono', monospace;
+  color:whitesmoke;
+  margin-top:40px;
+}
+
+.aqui{
+  font-family: 'Space Mono', monospace;
+  margin-top:40px;
+  text-decoration:none;
+  background-image: url('https://media3.giphy.com/media/l2JIgQqDeGQULFhJK/source.gif');
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+
+.p1{
+font-family: 'Space Mono', monospace;
+font-size: 0.9em;
+padding-left: 230px;
+text-align:left;
+color: whitesmoke;
+
+}
+.p2{
+  font-family: 'Space Mono', monospace;
+  font-size: 0.9em;
+  padding-right: 230px;
+  text-align:right;
+  color: whitesmoke;
+  
+}
+
+.p1::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
+  color:whitesmoke;
+}
+
+.p2::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
+  color:whitesmoke;
+}
+
+
+footer{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+ background: linear-gradient(to right, grey 0%, whitesmoke 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
